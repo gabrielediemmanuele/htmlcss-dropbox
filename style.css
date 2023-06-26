@@ -9,7 +9,7 @@ body {
 header {
   background-color: white;
 }
-
+/*Nav general container*/
 .nav-cont {
   width: 100%;
   height: 50px;
@@ -22,12 +22,33 @@ header {
   align-items: center;
 }
 
+/* NAV CONTAINER 1 */
 .sub-nav-cont-1 {
-  min-width: 30%;
+  min-width: 40%;
   height: 100%;
   border: 1.5px dashed green;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
+.gen-list-cont {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+.gen-list-cont li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  margin: 0px 20px 0px 20px;
+}
+
+/* NAV CONTAINER 2 */
 .sub-nav-cont-2 {
   min-width: 30%;
   height: 100%;
