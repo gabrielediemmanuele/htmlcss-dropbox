@@ -53,4 +53,14 @@ header {
   min-width: 30%;
   height: 100%;
   border: 1.5px dashed green;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#nav-button {
+  background-color: #0061ff;
+  padding: 5px 8px;
+  color: white;
 }
