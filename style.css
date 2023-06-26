@@ -71,19 +71,23 @@ header {
 }
 
 /*MAIN SECTION*/
-.main-cont {
+
+/*Jumbo container*/
+.jumbo-cont {
   width: 100%;
   min-height: 200px;
 
   background-color: #b4d0e7;
   border: 1.5px dashed rgb(0, 0, 0);
+  margin-bottom: 30px;
 }
 
 h1 {
   margin: 0;
 }
+
 /*TITLE CONTAINER */
-.main-cont .title-cont {
+.jumbo-cont .title-cont {
   width: 800px;
   min-height: 50px;
 
@@ -158,3 +162,13 @@ h1 {
   display: block;
 }
 /**********************************/
+
+/*FIRST SECTION CONTAINER*/
+.first-s-cont {
+  width: 700px;
+  min-height: 500px;
+
+  margin: 30px auto;
+
+  border: 1.5px dashed green;
+}
