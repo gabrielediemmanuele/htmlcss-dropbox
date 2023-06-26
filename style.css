@@ -115,10 +115,29 @@ h1 {
   min-height: 50px;
 
   border: 1.5px dashed rgb(255, 0, 0);
-  /* display: flex; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  font-size: 12px;
 }
 
 /*front P container STYLE*/
+.front-p-cont > p {
+  margin: 0;
+}
+
+.fpc-button {
+  background-color: #0061ff;
+  color: white;
+  padding: 6px 6px;
+}
+
+.fa-solid {
+  font-size: 30px;
+}
 
 /*front IMG container sizes*/
 .front-img-cont {
