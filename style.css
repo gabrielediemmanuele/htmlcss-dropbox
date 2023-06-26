@@ -82,6 +82,7 @@ header {
 h1 {
   margin: 0;
 }
+/*TITLE CONTAINER */
 .main-cont .title-cont {
   width: 800px;
   min-height: 50px;
@@ -91,4 +92,34 @@ h1 {
   margin: 40px auto 20px auto;
   text-align: left;
   font-size: 30px;
+}
+
+/*front cont*/
+.front-cont {
+  width: 800px;
+  min-height: 50px;
+
+  border: 1.5px dashed orange;
+
+  margin: 40px auto 20px auto;
+  padding: 10px 10px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.front-p-cont {
+  width: 33%;
+  min-height: 50px;
+
+  border: 1.5px dashed rgb(255, 0, 0);
+  /* display: flex; */
+}
+
+.front-img-cont {
+  width: 63%;
+  min-height: 50px;
+
+  border: 1.5px dashed rgb(255, 0, 0);
 }
