@@ -8,7 +8,10 @@ body {
 
 header {
   background-color: white;
+  position: relative;
+  padding-bottom: 55px;
 }
+
 /*Nav general container*/
 .nav-cont {
   width: 100%;
@@ -20,6 +23,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: fixed;
 }
 
 /* NAV CONTAINER 1 */
