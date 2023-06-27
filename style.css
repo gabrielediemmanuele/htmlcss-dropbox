@@ -406,15 +406,44 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
-
+/*left container*/
 .third-sex-cont > .t-sec-left-cont {
   width: 64%;
   min-height: 120px;
   border: 1.5px dashed rgb(128, 0, 0);
 }
+.t-sec-left-cont > img {
+  width: 100%;
+  display: block;
+}
 
+/*right container*/
 .third-sex-cont > .t-sec-right-cont {
   width: 34%;
-  min-height: 120px;
+  min-height: 376.07px;
   border: 1.5px dashed rgb(0, 121, 173);
+  box-sizing: border-box;
+
+  padding: 30px 20px;
+
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+.t-sec-right-cont > h4 {
+  margin: 10px 0;
+}
+.t-sec-right-cont > p {
+  font-size: 10px;
+  margin: 20px 0;
+}
+.t-sec-right-cont > button {
+  font-size: 10px;
+  background-color: white;
+  border: 1px solid;
+  padding: 8px;
+  cursor: pointer;
 }
