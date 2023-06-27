@@ -9,7 +9,7 @@ body {
 header {
   background-color: white;
   position: relative;
-  padding-bottom: 55px;
+  padding-bottom: 52px;
 }
 
 /*Nav general container*/
@@ -139,7 +139,7 @@ h1 {
   padding: 6px 6px;
 }
 
-.fa-solid {
+#jumbarrow {
   font-size: 30px;
 }
 
