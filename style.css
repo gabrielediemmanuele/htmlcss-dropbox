@@ -306,5 +306,8 @@ h1 {
 .planner-cont div {
   font-size: 10px;
   margin: 10px 0;
-  text-align: justify;
+}
+
+#diff-butt {
+  padding: 5px 48px;
 }
