@@ -311,3 +311,44 @@ h1 {
 #diff-butt {
   padding: 5px 48px;
 }
+
+/**********************************/
+
+/*SECOND SECTION CONTAINER*/
+
+.second-sex-cont {
+  width: 680px;
+  min-height: 150px;
+  margin: 20px auto;
+  border: 1.5px dashed green;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.s-sex-cont-title {
+  width: 100%;
+  min-height: 20px;
+  border: 1.5px dashed rgb(128, 0, 0);
+  margin-bottom: 10px;
+}
+
+.s-sex-content-cont {
+  width: 100%;
+  min-height: 120px;
+  border: 1.5px dashed rgb(128, 0, 0);
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-sex-content-cont > .ss-cc-enterprise-cont {
+  width: 65%;
+  min-height: 120px;
+  border: 1.5px dashed rgb(0, 21, 255);
+}
+
+.s-sex-content-cont > .ss-cc-button-cont {
+  width: 34%;
+  min-height: 120px;
+  border: 1.5px dashed rgb(0, 21, 255);
+}
