@@ -194,6 +194,7 @@ h1 {
   align-items: center;
 }
 
+/* THREE COLUMN CONT*/
 .threecol-cont {
   width: 90%;
   min-height: 500px;
@@ -208,4 +209,11 @@ h1 {
   width: 30%;
   min-height: 400px;
   border: 1.5px dashed rgb(81, 255, 0);
+}
+
+.column .tit-col-cont {
+  width: 100%;
+  min-height: 20px;
+  border: 1.5px dashed rgb(13, 0, 255);
+  box-sizing: border-box;
 }
