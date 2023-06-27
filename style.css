@@ -213,7 +213,17 @@ h1 {
 
 .column .tit-col-cont {
   width: 100%;
-  min-height: 20px;
+  min-height: 30px;
   border: 1.5px dashed rgb(13, 0, 255);
   box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tit-col-cont > span,
+.fa-user {
+  font-size: 10px;
+  margin-right: 5px;
 }
