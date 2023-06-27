@@ -231,7 +231,7 @@ h1 {
 /*main column container*/
 .column .main-col-cont {
   width: 100%;
-  min-height: 150px;
+  height: 260px;
   border: 1.5px dashed rgb(13, 0, 255);
   box-sizing: border-box;
 
