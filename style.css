@@ -25,6 +25,9 @@ header {
   align-items: center;
 
   position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 /* NAV CONTAINER 1 */
@@ -325,13 +328,23 @@ h1 {
   box-sizing: border-box;
 }
 
+/*top container // title "team"*/
 .s-sex-cont-title {
   width: 100%;
   min-height: 20px;
+
   border: 1.5px dashed rgb(128, 0, 0);
+
   margin-bottom: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 10px;
 }
 
+/*bottom container*/
 .s-sex-content-cont {
   width: 100%;
   min-height: 120px;
@@ -341,14 +354,36 @@ h1 {
   justify-content: space-between;
 }
 
+/*bottom LEFT container*/
 .s-sex-content-cont > .ss-cc-enterprise-cont {
   width: 65%;
   min-height: 120px;
   border: 1.5px dashed rgb(0, 21, 255);
+  padding: 0px 20px;
 }
 
+.ss-cc-enterprise-cont > p {
+  font-size: 10px;
+}
+
+/*bottom RIGHT container*/
 .s-sex-content-cont > .ss-cc-button-cont {
   width: 34%;
   min-height: 120px;
   border: 1.5px dashed rgb(0, 21, 255);
+  box-sizing: border-box;
+
+  position: relative;
+}
+
+.ss-cc-button-cont > .ss-cc-button {
+  background-color: #0061ff;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  padding: 8px 20px;
+
+  position: absolute;
+  top: 10px;
+  left: 60px;
 }
