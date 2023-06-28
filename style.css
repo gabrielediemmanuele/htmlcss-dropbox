@@ -451,3 +451,40 @@ h1 {
 /**********************************/
 
 /*FOURTH SECTION CONTAINER*/
+.fourth-sex-cont {
+  width: 750px;
+  min-height: 150px;
+
+  margin: 60px auto;
+  padding: 5px;
+
+  border: 1.5px dashed green;
+
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+/*Title container*/
+.fourth-sex-cont > .fsc-title-cont {
+  width: 100%;
+  min-height: 25px;
+
+  border: 1.5px dashed rgb(128, 0, 0);
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.fsc-title-cont > p {
+  font-size: 25px;
+  margin: 0px 0px 15px 5px;
+}
+
+/* cards container*/
+.fourth-sex-cont > .fsc-cards-cont {
+  width: 100%;
+  min-height: 150px;
+
+  border: 1.5px dashed rgb(128, 0, 0);
+  box-sizing: border-box;
+}
