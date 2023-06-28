@@ -584,3 +584,48 @@ h1 {
 /**********************************/
 
 /*SIXTH SECTION CONTAINER*/
+
+.sixth-sex-cont {
+  width: 100%;
+  min-height: 300px;
+
+  margin-top: 50px;
+
+  border: 1.5px dashed green;
+  box-sizing: border-box;
+
+  display: flex;
+}
+
+.sixth-sex-cont .ss-gen-cont {
+  width: calc(100% / 3);
+  height: 422px;
+
+  border: 1.5px dashed orange;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ss-gen-cont .ss-logos-cont {
+  width: 50%;
+  height: 50%;
+
+  border: 1.5px dashed rgb(255, 0, 0);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ss-logos-cont .ss-bg-cont {
+  width: 200px;
+  height: 200px;
+
+  border: 1.5px dashed blue;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
