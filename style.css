@@ -494,10 +494,11 @@ h1 {
   align-items: center;
   flex-wrap: wrap;
 }
+
 /*card container*/
 .fsc-cards-cont .card-cont {
   width: 32%;
-  min-height: 310px;
+  min-height: 320px;
 
   border: 1.5px dashed rgb(255, 149, 0);
   margin-bottom: 10px;
@@ -507,19 +508,36 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
 }
-
+/*card img cont*/
 .card-cont .img-card-cont {
   width: 100%;
   min-height: 150px;
 
   border: 1.5px dashed rgb(0, 81, 255);
   box-sizing: border-box;
+  margin-bottom: 5px;
 }
 
+.card-cont .img-card-cont > img {
+  width: 100%;
+  display: block;
+}
+
+/*card text cont*/
 .card-cont .text-card-cont {
   width: 100%;
   min-height: 150px;
 
   border: 1.5px dashed rgb(0, 81, 255);
   box-sizing: border-box;
+  padding: 2px;
+}
+
+.card-cont .text-card-cont > h4 {
+  margin: 0;
+}
+
+.card-cont .text-card-cont > p {
+  margin-bottom: 0;
+  font-size: 12px;
 }
