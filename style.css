@@ -595,7 +595,7 @@ h1 {
 
   display: flex;
 }
-
+/* General containers 3parts*/
 .sixth-sex-cont .ss-gen-cont {
   width: calc(100% / 3);
   height: 422px;
@@ -606,7 +606,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
 }
-
+/*4part little containers*/
 .ss-gen-cont .ss-logos-cont {
   width: 50%;
   height: 50%;
@@ -619,11 +619,12 @@ h1 {
 
   background-color: #cee9cb;
 }
-
+/* logo-img inside containers*/
 .ss-logos-cont img {
   width: 100px;
 }
 
+/*double background container*/
 .ss-logos-cont .ss-bg-cont {
   width: 200px;
   height: 200px;
@@ -637,6 +638,7 @@ h1 {
   background-color: #a2d39b;
 }
 
+/*general logo image size*/
 .ss-bg-cont img {
   width: 100px;
 }
