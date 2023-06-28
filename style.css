@@ -179,7 +179,7 @@ h1 {
 .fsc-title-cont {
   width: 100%;
   min-height: 20px;
-  border: 1.5px dashed rgb(128, 0, 0);
+  /* border: 1.5px dashed rgb(128, 0, 0); */
 }
 
 .fsc-title-cont > h2 {
@@ -398,7 +398,7 @@ h1 {
   margin: 50px auto;
   padding: 5px;
 
-  border: 1.5px dashed green;
+  /* border: 1.5px dashed green; */
 
   box-sizing: border-box;
 
@@ -406,11 +406,12 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
+
 /*left container*/
 .third-sex-cont > .t-sec-left-cont {
   width: 64%;
   min-height: 120px;
-  border: 1.5px dashed rgb(128, 0, 0);
+  /*  border: 1.5px dashed rgb(128, 0, 0); */
 }
 .t-sec-left-cont > img {
   width: 100%;
@@ -421,7 +422,7 @@ h1 {
 .third-sex-cont > .t-sec-right-cont {
   width: 34%;
   min-height: 376.07px;
-  border: 1.5px dashed rgb(0, 121, 173);
+  /* border: 1.5px dashed rgb(0, 121, 173); */
   box-sizing: border-box;
 
   padding: 30px 20px;
@@ -458,7 +459,7 @@ h1 {
   margin: 60px auto;
   padding: 5px;
 
-  border: 1.5px dashed green;
+  /* border: 1.5px dashed green; */
 
   box-sizing: border-box;
 
@@ -470,7 +471,7 @@ h1 {
   width: 100%;
   min-height: 25px;
 
-  border: 1.5px dashed rgb(128, 0, 0);
+  /* border: 1.5px dashed rgb(128, 0, 0); */
   margin-bottom: 15px;
   box-sizing: border-box;
 }
@@ -485,7 +486,7 @@ h1 {
   width: 100%;
   min-height: 150px;
 
-  border: 1.5px dashed rgb(128, 0, 0);
+  /*  border: 1.5px dashed rgb(128, 0, 0); */
   box-sizing: border-box;
   padding: 5px;
 
@@ -500,7 +501,7 @@ h1 {
   width: 32%;
   min-height: 320px;
 
-  border: 1.5px dashed rgb(255, 149, 0);
+  /* border: 1.5px dashed rgb(255, 149, 0); */
   margin-bottom: 10px;
   padding: 2px;
 
@@ -513,7 +514,7 @@ h1 {
   width: 100%;
   min-height: 150px;
 
-  border: 1.5px dashed rgb(0, 81, 255);
+  /* border: 1.5px dashed rgb(0, 81, 255); */
   box-sizing: border-box;
   margin-bottom: 5px;
 }
@@ -528,7 +529,7 @@ h1 {
   width: 100%;
   min-height: 150px;
 
-  border: 1.5px dashed rgb(0, 81, 255);
+  /* border: 1.5px dashed rgb(0, 81, 255); */
   box-sizing: border-box;
   padding: 2px;
 }
@@ -553,7 +554,7 @@ h1 {
   margin: 60px auto;
   padding: 5px;
 
-  border: 1.5px dashed green;
+  /* border: 1.5px dashed green; */
 
   display: flex;
   flex-direction: column;
@@ -565,7 +566,7 @@ h1 {
   width: 65%;
   min-height: 50px;
 
-  border: 1.5px dashed rgb(128, 0, 0);
+  /* border: 1.5px dashed rgb(128, 0, 0); */
   padding-left: 15px;
 }
 
@@ -574,11 +575,11 @@ h1 {
   width: 25%;
   min-height: 30px;
 
-  border: 1.5px dashed rgb(128, 0, 0);
+  /* border: 1.5px dashed rgb(128, 0, 0); */
   padding-left: 15px;
 
   line-height: 30px;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 /**********************************/
@@ -590,7 +591,7 @@ h1 {
 
   margin-top: 50px;
 
-  border: 1.5px dashed green;
+  /* border: 1.5px dashed green; */
   box-sizing: border-box;
 
   display: flex;
@@ -600,7 +601,7 @@ h1 {
   width: calc(100% / 3);
   height: 422px;
 
-  border: 1.5px dashed orange;
+  /* border: 1.5px dashed orange; */
   box-sizing: border-box;
 
   display: flex;
@@ -611,7 +612,7 @@ h1 {
   width: 50%;
   height: 50%;
 
-  border: 1.5px dashed rgb(255, 0, 0);
+  /* border: 1.5px dashed rgb(255, 0, 0); */
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -629,7 +630,7 @@ h1 {
   width: 200px;
   height: 200px;
 
-  border: 1.5px dashed blue;
+  /* border: 1.5px dashed blue; */
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -648,7 +649,7 @@ h1 {
   width: 400px;
   height: 350px;
 
-  border: 1.5px dashed red;
+  /* border: 1.5px dashed red; */
   margin: 25px;
   box-sizing: border-box;
 }
@@ -675,7 +676,7 @@ h1 {
   width: 100%;
   min-height: 200px;
 
-  border: 1.5px dashed red;
+  /* border: 1.5px dashed red; */
   background-color: #b4d0e7;
 
   display: flex;
@@ -687,7 +688,7 @@ h1 {
   width: 50%;
   min-height: 80px;
 
-  border: 1.5px dashed green;
+  /* border: 1.5px dashed green; */
   padding: 5px;
 
   display: flex;
@@ -699,7 +700,7 @@ h1 {
   width: 65%;
   height: 50px;
 
-  border: 1.5px dashed red;
+  /* border: 1.5px dashed red; */
 }
 
 .mid-left-cont > h2 {
@@ -713,7 +714,7 @@ h1 {
   width: 32%;
   height: 50px;
 
-  border: 1.5px dashed red;
+  /* border: 1.5px dashed red; */
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
