@@ -642,3 +642,28 @@ h1 {
 .ss-bg-cont img {
   width: 100px;
 }
+
+/*FRONT CONTAINER WORK*/
+.ss-gen-cont > .ss-front-cont {
+  width: 400px;
+  height: 350px;
+
+  border: 1.5px dashed red;
+  margin: 25px;
+  box-sizing: border-box;
+}
+
+.ss-front-cont > img {
+  width: 160px;
+}
+
+.ss-front-cont > p {
+  color: #d4d4d7;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+#center-p {
+  font-size: 11px;
+  color: black;
+}
