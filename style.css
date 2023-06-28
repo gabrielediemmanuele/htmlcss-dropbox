@@ -620,6 +620,10 @@ h1 {
   background-color: #cee9cb;
 }
 
+.ss-logos-cont img {
+  width: 100px;
+}
+
 .ss-logos-cont .ss-bg-cont {
   width: 200px;
   height: 200px;
@@ -633,6 +637,6 @@ h1 {
   background-color: #a2d39b;
 }
 
-.ss-bg-cont > img {
+.ss-bg-cont img {
   width: 100px;
 }

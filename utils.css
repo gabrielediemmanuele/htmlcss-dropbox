@@ -12,22 +12,22 @@
 #vinaccio {
   background-color: var(--vinaccio);
 }
-.heavenly {
+#heavenly {
   background-color: var(--heavenly);
 }
-.red {
+#red {
   background-color: var(--red);
 }
-.darkred {
+#darkred {
   background-color: var(--darkred);
 }
-.lightheavenly {
+#lightheavenly {
   background-color: var(--lightheavenly);
 }
-.blue {
+#blue {
   background-color: var(--blue);
 }
-.yellow {
+#yellow {
   background-color: var(--yellow);
 }
 /*//////////////////////*/
