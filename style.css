@@ -487,4 +487,18 @@ h1 {
 
   border: 1.5px dashed rgb(128, 0, 0);
   box-sizing: border-box;
+  padding: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fsc-cards-cont .card-cont {
+  width: 32%;
+  min-height: 300px;
+
+  border: 1.5px dashed rgb(255, 149, 0);
+  margin-bottom: 10px;
 }
