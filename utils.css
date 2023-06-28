@@ -1,0 +1,33 @@
+:root {
+  --vinaccio: #61082b;
+  --heavenly: #0093ce;
+  --red: #ff1c1c;
+  --darkred: #d5001f;
+  --lightheavenly: #b4d0e7;
+  --blue: #0d2481;
+  --yellow: #ffd830;
+}
+/*///////////////////////*/
+/*colorchange palette*/
+#vinaccio {
+  background-color: var(--vinaccio);
+}
+.heavenly {
+  background-color: var(--heavenly);
+}
+.red {
+  background-color: var(--red);
+}
+.darkred {
+  background-color: var(--darkred);
+}
+.lightheavenly {
+  background-color: var(--lightheavenly);
+}
+.blue {
+  background-color: var(--blue);
+}
+.yellow {
+  background-color: var(--yellow);
+}
+/*//////////////////////*/

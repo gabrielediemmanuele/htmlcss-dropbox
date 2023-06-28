@@ -584,7 +584,6 @@ h1 {
 /**********************************/
 
 /*SIXTH SECTION CONTAINER*/
-
 .sixth-sex-cont {
   width: 100%;
   min-height: 300px;
@@ -617,6 +616,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: #cee9cb;
 }
 
 .ss-logos-cont .ss-bg-cont {
@@ -628,4 +629,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: #a2d39b;
+}
+
+.ss-bg-cont > img {
+  width: 100px;
 }
