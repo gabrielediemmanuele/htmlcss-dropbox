@@ -545,3 +545,38 @@ h1 {
 /**********************************/
 
 /*FIFTH SECTION CONTAINER*/
+
+.fifth-sex-cont {
+  width: 750px;
+  min-height: 100px;
+
+  margin: 60px auto;
+  padding: 5px;
+
+  border: 1.5px dashed green;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*title cont*/
+.fifth-sex-cont > .fh-title-cont {
+  width: 65%;
+  min-height: 50px;
+
+  border: 1.5px dashed rgb(128, 0, 0);
+  padding-left: 15px;
+}
+
+/*link cont*/
+.fifth-sex-cont > .fh-link-cont {
+  width: 25%;
+  min-height: 30px;
+
+  border: 1.5px dashed rgb(128, 0, 0);
+  padding-left: 15px;
+
+  line-height: 30px;
+  font-size: 10px;
+}
